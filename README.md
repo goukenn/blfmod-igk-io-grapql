@@ -38,3 +38,16 @@ calling listener
     }
 }
 ```
+
+#use in code 
+
+```'PHP'
+use igk\io\GraphQl\GraphQlParser;
+
+igk_require_module(\igk\io\GraphQl::class);
+
+
+$parse = GraphQlParser::Parse("{}", $data, $listener);
+
+
+```

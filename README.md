@@ -1,6 +1,6 @@
-** igk/io/GraphQl
+# igk/io/GraphQl
  
-@C.A.D.BONDJEDOUE
+
 
 The simple graphQL base QL implementation to get and retrieve data . 
 
@@ -50,3 +50,8 @@ igk_require_module(\igk\io\GraphQl::class);
 $parse = GraphQlParser::Parse("{}", $data, $listener);
 
 ```
+
+
+
+2022
+@C.A.D. BONDJE DOUE

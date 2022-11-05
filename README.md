@@ -2,10 +2,10 @@
  
 @C.A.D.BONDJEDOUE
 
-The simple graphQL base QL implementation to gget and retrieve data . 
+The simple graphQL base QL implementation to get and retrieve data . 
 
 
-```
+```graphql
 {
     basic
     first
@@ -13,19 +13,19 @@ The simple graphQL base QL implementation to gget and retrieve data .
 }
 ```
 or 
-```
+```graphql
 {basic, first, name}
 ```
 
 calling listener 
-
+```graphql
 {
     userinfo(uid: 1){
         firstname
         lastname
     }    
 }
-
+```
 ### setting alias on caller function 
 ```graphql
 {

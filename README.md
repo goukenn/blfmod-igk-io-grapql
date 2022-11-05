@@ -34,7 +34,8 @@ calling listener
         lastname
     }
     operator userinfo(usrOpType: 'operator'){
-
+        firtname
+        lastname
     }
 }
 ```

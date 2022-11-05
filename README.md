@@ -41,13 +41,12 @@ calling listener
 
 #use in code 
 
-```'PHP'
+```PHP
+<?php
 use igk\io\GraphQl\GraphQlParser;
 
 igk_require_module(\igk\io\GraphQl::class);
 
-
 $parse = GraphQlParser::Parse("{}", $data, $listener);
-
 
 ```

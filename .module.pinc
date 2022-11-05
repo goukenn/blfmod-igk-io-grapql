@@ -11,14 +11,4 @@ return [
 // define entry name space
 //
 "entry_NS"=>\igk\io\GraphQl::class,
-
-//------------------------------------------------
-// version
-//
-"version"=>"1.0",
-
-//-------------------------------------------------
-// author
-//
-"author"=>"C.A.D. BONDJE DOUE"
 ];
